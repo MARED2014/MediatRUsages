@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Features\Holidays\Commands\Interfaces\**" />
+    <EmbeddedResource Remove="Features\Holidays\Commands\Interfaces\**" />
+    <None Remove="Features\Holidays\Commands\Interfaces\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Features\Holidays\Rules\ICheckDuplicateHolidayName.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="14.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersistanceLayer\PersistanceLayer.csproj" />
+  </ItemGroup>
+
+</Project>

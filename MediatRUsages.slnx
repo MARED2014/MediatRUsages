@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ApplicationLayer/ApplicationLayer.csproj" Id="2949917a-37a8-4ead-bbd7-74c1647cef5c" />
+  <Project Path="DomainLayer/DomainLayer.csproj" Id="b1e59c80-28f1-463d-b127-9f8fa01be6ea" />
+  <Project Path="PersistanceLayer/PersistanceLayer.csproj" Id="8422a0ae-dafe-47de-84ba-57d5ac303a1b" />
+  <Project Path="WebApi/WebApi.csproj" Id="e1147522-bdc6-4f9e-ab18-a47c12c316c3" />
+</Solution>
