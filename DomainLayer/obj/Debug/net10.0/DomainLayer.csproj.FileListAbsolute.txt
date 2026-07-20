@@ -1,0 +1,11 @@
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\DomainLayer\bin\Debug\net10.0\DomainLayer.deps.json
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\DomainLayer\bin\Debug\net10.0\DomainLayer.dll
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\DomainLayer\bin\Debug\net10.0\DomainLayer.pdb
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\DomainLayer\obj\Debug\net10.0\DomainLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\DomainLayer\obj\Debug\net10.0\DomainLayer.AssemblyInfoInputs.cache
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\DomainLayer\obj\Debug\net10.0\DomainLayer.AssemblyInfo.cs
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\DomainLayer\obj\Debug\net10.0\DomainLayer.csproj.CoreCompileInputs.cache
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\DomainLayer\obj\Debug\net10.0\DomainLayer.dll
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\DomainLayer\obj\Debug\net10.0\refint\DomainLayer.dll
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\DomainLayer\obj\Debug\net10.0\DomainLayer.pdb
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\DomainLayer\obj\Debug\net10.0\ref\DomainLayer.dll

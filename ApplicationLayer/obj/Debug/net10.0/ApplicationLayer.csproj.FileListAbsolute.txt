@@ -1,0 +1,17 @@
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\ApplicationLayer\bin\Debug\net10.0\ApplicationLayer.deps.json
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\ApplicationLayer\bin\Debug\net10.0\ApplicationLayer.dll
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\ApplicationLayer\bin\Debug\net10.0\ApplicationLayer.pdb
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\ApplicationLayer\obj\Debug\net10.0\ApplicationLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\ApplicationLayer\obj\Debug\net10.0\ApplicationLayer.AssemblyInfoInputs.cache
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\ApplicationLayer\obj\Debug\net10.0\ApplicationLayer.AssemblyInfo.cs
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\ApplicationLayer\obj\Debug\net10.0\ApplicationLayer.csproj.CoreCompileInputs.cache
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\ApplicationLayer\obj\Debug\net10.0\ApplicationLayer.dll
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\ApplicationLayer\obj\Debug\net10.0\refint\ApplicationLayer.dll
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\ApplicationLayer\obj\Debug\net10.0\ApplicationLayer.pdb
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\ApplicationLayer\obj\Debug\net10.0\ref\ApplicationLayer.dll
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\ApplicationLayer\bin\Debug\net10.0\DomainLayer.dll
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\ApplicationLayer\bin\Debug\net10.0\PersistanceLayer.dll
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\ApplicationLayer\bin\Debug\net10.0\PersistanceLayer.pdb
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\ApplicationLayer\bin\Debug\net10.0\DomainLayer.pdb
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\ApplicationLayer\obj\Debug\net10.0\ApplicationLayer.csproj.AssemblyReference.cache
+D:\Projeler\Projeler_DesignPatterns\MediatRUsages\ApplicationLayer\obj\Debug\net10.0\Applicat.033E422A.Up2Date
