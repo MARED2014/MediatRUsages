@@ -4,8 +4,7 @@ using PersistanceLayer.Context;
 
 namespace ApplicationLayer.Features.Holidays.Rules;
 
-public class DuplicateHolidayNameBehavior<TRequest, TResponse>: IPipelineBehavior<TRequest, TResponse>
-                                        where TRequest : IRequest<TResponse>, ICheckHolidayName
+public class DuplicateHolidayNameBehavior<TRequest, TResponse>: IPipelineBehavior<TRequest, TResponse> where TRequest : IRequest<TResponse>, ICheckHolidayName
 {
     private readonly AppDbContext _context;
 

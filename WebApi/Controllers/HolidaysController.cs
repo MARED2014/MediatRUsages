@@ -1,13 +1,11 @@
 ﻿using ApplicationLayer.Features.Holidays.Commands.Create;
 using ApplicationLayer.Features.Holidays.Commands.Delete;
 using ApplicationLayer.Features.Holidays.Commands.Update;
-using ApplicationLayer.Features.Holidays.Queries;
 using ApplicationLayer.Features.Holidays.Queries.GetHoliday;
 using ApplicationLayer.Features.Holidays.Queries.GetHolidayById;
 using DomainLayer.Dtos;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace WebApi.Controllers;
 
