@@ -33,23 +33,23 @@ public class HolidaysController : ControllerBase
     public async Task<IActionResult> Get(Guid id)
     {
         var holiday = await _sender.Send(new GetHolidayByIdQuery(id));
-        return Ok(holiday);
+        return holiday is null ? NotFound() : Ok(holiday);
     }
 
     // POST api/<HolidaysController>
     [HttpPost]
     public async Task<IActionResult> Create(CreateHolidayCommand command)
     {
-        var holidayId = await _sender.Send(command);
-        return CreatedAtAction(nameof(Get), new { id = holidayId }, null);
+        var response = await _sender.Send(command);
+        return CreatedAtAction(nameof(Get), new { id = response.Id }, response);
     }
 
     // PUT api/<HolidaysController>/5
     [HttpPut("{id}")]
     public async Task<IActionResult> Put(UpdateHolidayCommand command)
     {
-        var holidayId = await _sender.Send(command);
-        return CreatedAtAction(nameof(Get), new { id = holidayId }, null);
+        await _sender.Send(command);
+        return NoContent();
     }
 
     // DELETE api/<HolidaysController>/5

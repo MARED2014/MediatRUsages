@@ -38,8 +38,3 @@ public class CreateHolidayCommandHandler : IRequestHandler<CreateHolidayCommand,
         };
     }
 }
-
-public class DuplicateHolidayNameException : Exception
-{
-    public DuplicateHolidayNameException(string message) : base(message) { }
-}

@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using ApplicationLayer.Exceptions;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using PersistanceLayer.Context;
 
@@ -27,7 +28,7 @@ public class DuplicateHolidayNameBehavior<TRequest, TResponse>: IPipelineBehavio
 
         if (nameExists)
         {
-            throw new InvalidOperationException("Bu isim başka bir tatil tarafından kullanılıyor.");
+            throw new DuplicateHolidayNameException("Bu isim başka bir tatil tarafından kullanılıyor.");
         }
 
         return await next();
